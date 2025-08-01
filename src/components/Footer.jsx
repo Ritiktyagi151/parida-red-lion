@@ -1,4 +1,3 @@
-import React, { useRef } from "react";
 import {
   FaFacebook,
   FaTwitter,
@@ -187,7 +186,7 @@ const Footer = () => {
                     style={{ animationDelay: `${0.1 * index}s` }}
                   >
                     <a
-                      href="#"
+                      href="/about"
                       className="text-[#312674]/80 hover:text-[#FC252E] flex items-center transition-all duration-300 group transform hover:translate-x-2"
                     >
                       <FiArrowUpRight className="mr-2 opacity-0 group-hover:opacity-100 transition-all duration-300 text-[#FC252E] transform group-hover:rotate-45" />
